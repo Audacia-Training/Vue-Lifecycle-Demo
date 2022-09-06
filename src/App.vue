@@ -17,6 +17,7 @@ onMounted(() => {
 
 onUnmounted(() => {
   state = 'Unmounting';
+  window.removeEventListener('mousemove');
 });
 </script>
 
